@@ -26,9 +26,12 @@ selection-foreground = #000000
 # Shortcut
 
 keybind = global:cmd+grave_accent=toggle_quick_terminal
+keybind = cmd+s>r=reload_config
+keybind = cmd+s>q=close_surface
 
 # Others
 
 macos-titlebar-style = transparent
 window-colorspace = display-p3
 window-padding-balance = true
+mouse-hide-while-typing = true
